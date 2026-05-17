@@ -40,43 +40,6 @@ ShopHub is a complete full-stack e-commerce web application that allows users to
 - Node.js (v18+)
 - PostgreSQL (v15+)
 
-### Installation
-
-#### 1. Clone the repository
-\\\ash
-git clone https://github.com/AbdullahBinFazal/ecommerce-app.git
-cd ecommerce-app
-\\\ash
-cd ecommerce-backend
-npm install
-cp .env.example .env  # Update database credentials
-npm run dev
-\\\ash
-cd ecommerce-frontend
-npm install
-npm run dev
-\\\ash
-cd ecommerce-backend
-node src/seeds/seed.js
-- Frontend: http://localhost:5173
-- Backend API: http://localhost:5000
-
-## 📊 API Endpoints
-
-| Method | Endpoint | Purpose | Auth |
-|--------|----------|---------|------|
-| POST | /api/users/register | Create new account | No |
-| POST | /api/users/login | Login user | No |
-| GET | /api/products | Get all products | No |
-| GET | /api/cart/:sessionId | Get cart items | No |
-| POST | /api/cart | Add to cart | No |
-| PUT | /api/cart/:id | Update quantity | No |
-| DELETE | /api/cart/:id | Remove item | No |
-| POST | /api/orders | Place order | No |
-| GET | /api/admin/products | Get all products | Admin |
-| POST | /api/admin/products | Add product | Admin |
-| DELETE | /api/admin/products/:id | Delete product | Admin |
-
 ## 👥 Team Members
 | Name | Roll Number |
 |------|-------------|
